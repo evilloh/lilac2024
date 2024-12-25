@@ -1,0 +1,112 @@
+TODO LIST:
+Video gif per About e per Winners
+fare articolo con i 10 migliori giochi di ognuno nella homepage
+che quando cambi la category il "view winner" si chiude o resetta
+
+Death's Door      | Best Combat, Best Music
+FF7 Remake	      | Best Roleplay, Best Combat, Best Music
+The Artful Escape | Best Art
+Outer Wilds EOTE  | Best game, Best Music, Best ???, Best Narrative,
+                    Games for Impact
+Titanfall 2	      | Best Combat
+It takes two	    | Best Game, Best fun, Best Art 
+Triangle Strategy | Best strategy, Best story
+Half life alyx    | Best Game, Best Combat, Best action adventure, Best Gameplay
+Elden Ring 	      | Best Game, Best Art, Best Combat
+God of War 	      | Best Game, Best Combat, Best role playing, Best action adventure
+SUPERHOT VR	      | Best Combat, Best Gameplay
+Unepic	    	    | Best role playing
+Thronebreaker	    | Best Narrative, Best Story, Best Strategy
+Dorfromantik	    | Best Strategy
+Chicory		        | Best Music, Games for Impact, Best indie,
+Psychonauts 2	    | Best Game, Best Art, Best role playing, Best action adventure, 
+                    Best Gameplay
+Inscryption	      | Best Strategy, Best indie
+Life is strange 2 | Best Narrative, Best Story, Best music
+Mass Effect LE    | Best Roleplay, Best combat
+Ori and TWoTW     | Best Art, Best Game, Best fun
+The Forgotten City | Best Story, Best indie, Best narrative
+
+Best Music, Best indie, Best sim Strategy, Best role playing, Best action adventure, Best Action, Games for Impact, Best Gameplay, Best Art Direction, Game of the Year, Best narrative, Best Story
+
+best music
+death soor
+ff7 Remake
+outerwilds
+artful
+chicory
+lis2
+
+best indie
+deaths Door
+the artful escape 
+chicory
+unepic
+Inscryption
+
+best sim Strategy
+Inscryption
+Thronebreaker
+Dorfromantik
+Triangle strategy
+
+best role playing
+ff7 Remake
+god of War
+unepic
+half life
+elden ring
+
+
+Best action adventure
+deaths Door
+titanfall 2
+god of War
+half life
+Psychonauts 2
+
+Best Action
+death's Door
+ff7 
+titanfall 2
+elden Ring
+super hot VR
+
+Games for Impact
+Life is strange 2
+The Artful Escape
+It takes two
+Chicory
+Outer Wilds EOTE
+
+Best Gameplay
+Death's Door
+Titanfall 2
+Half life alyx
+SUPERHOT VR
+Inscryption
+Psychonauts 2
+It takes two
+
+Best Art Direction
+Psychonauts 2
+The Artful Escape
+It takes two
+Elden Ring
+Chicory
+
+
+Game of the Year
+Recognizing a game that delivers the absolute best experience across all creative and technical fields.
+Half life alyx - Psychonauts 2 - It takes two - Elden Ring - Outer Wilds EOTE - God of War 
+
+Best Narrative
+FF7 Remake - It takes two - Half life alyx - God of War - Psychonauts 2
+
+Best Story
+Triangle Strategy 
+God of War
+Thronebreaker
+Psychonauts 2
+Titanfall 2
+

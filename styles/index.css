@@ -1,0 +1,267 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Prohibition";
+  src: url("../fonts/Prohibition-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Prohibition Lines";
+  src: url("../fonts/Prohibition-Lines.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary: #1f012a;
+  /* --primary: #c8a2c8; */
+  /* --primary: #000aff; */
+  --primary-white: white;
+  --primary-black: rgb(37, 37, 37);
+  --grey-dark: rgb(20 20 20);
+  overflow-x: hidden;
+  font-family: "Prohibition", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--primary-white);
+  font-size: 3rem;
+  line-height: 1;
+  font-family: "Prohibition", sans-serif;
+}
+
+.outlined {
+  font-family: "Prohibition", sans-serif;
+  color: black;
+  -webkit-text-stroke: 1px white;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: var(--primary-white);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--primary-white);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: normal;
+}
+
+.active-navbar {
+  background-color: white;
+}
+
+.shadowCustom {
+  box-shadow: -1px 1px 15px 2px rgba(255, 255, 255, 0.75);
+}
+
+#video {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+/* Global Button Styles */
+a.animated-button:link:after,
+a.animated-button:visited:after {
+  content: "";
+  position: absolute;
+  height: 0%;
+  left: 50%;
+  top: 50%;
+  width: 150%;
+  z-index: -1;
+  -webkit-transition: all 0.75s ease 0s;
+  -moz-transition: all 0.75s ease 0s;
+  -o-transition: all 0.75s ease 0s;
+  transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover,
+a.animated-button:visited:hover {
+  color: #fff;
+  text-shadow: none;
+}
+a.animated-button:link,
+a.animated-button:visited {
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  padding: 14px 15px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* Thar Buttons */
+
+a.animated-button.thar-one {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  /* border: 2px solid var(--primary); */
+  background-color: var(--primary);
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+a.animated-button.thar-one:hover {
+  color: var(--primary) !important;
+  background-color: transparent;
+  text-shadow: none;
+  box-shadow: -1px 1px 5px 2px rgba(255, 255, 255, 0.75);
+  transition: all 0.7s;
+}
+
+a.animated-button.thar-one:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+
+a.animated-button.thar-one:before {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 0px;
+  width: 100%;
+  z-index: -2;
+  content: "";
+  background: var(--primary-white);
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+a.animated-button-bg-black.thar-one:hover:before {
+  bottom: 0%;
+  top: auto;
+  height: 100%;
+}
+
+a.animated-button-bg-black.thar-one:before {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 0px;
+  width: 100%;
+  z-index: -1;
+  content: "";
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  background: var(--primary-black) !important;
+}
+
+.triangle-element {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.triangle-element:after {
+  content: "";
+  background: var(--primary-black);
+  width: 142%;
+  height: 142%;
+  position: absolute;
+  transform: rotate(135deg) translate(-71%, 0);
+}
+.triangle-element-grey {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.triangle-element-grey:after {
+  content: "";
+  background: var(--grey-dark);
+  width: 142%;
+  height: 142%;
+  position: absolute;
+  transform: rotate(135deg) translate(-71%, 0);
+}
+
+.notHiddenino {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+.hiddenino {
+  display: none;
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeInOp 1s forwards;
+}
+
+.gridNominees {
+  grid-row-gap: 35px;
+  row-gap: 35px;
+  grid-column-gap: 15px;
+  column-gap: 15px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  display: grid;
+}
+
+@media only screen and (max-width: 800px) {
+  .gridNominees {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .gridNominees {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .gridNominees {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-items: center;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeInOp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

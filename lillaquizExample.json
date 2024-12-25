@@ -1,0 +1,55 @@
+{
+  "gameId": "FirstGame",
+  "questions": [
+    {
+      "title": "Is evilloh the best developer in the LillaCorp?",
+      "answer": "Of course",
+      "options": ["Of course", "Absolutely", "I'm not sure of it", "Carlo"]
+    },
+    {
+      "title": "Is Matteo the best engineer LillaCorp?",
+      "answer": "Of course",
+      "options": [
+        "Of course",
+        "Did i spell engineer right?",
+        "What about pezzo?",
+        "Carlo"
+      ]
+    },
+    {
+      "title": "Is Federico the best fratellomerda in the LillaCorp?",
+      "answer": "Of course",
+      "options": [
+        "No, it's Miso",
+        "Of course",
+        "Carlo",
+        "Granolita knows the secret"
+      ]
+    },
+    {
+      "title": "Is Pezzo the best meme expert in the LillaCorp?",
+      "answer": "Of course",
+      "options": ["What about evilloh?", "Carlo", "Of course"]
+    },
+    {
+      "title": "Does this question have too many answers?",
+      "answer": "This is a test let's see if it works",
+      "options": [
+        "Of course",
+        "Absolutely",
+        "I'm not sure of it",
+        "Carlo",
+        "Federico",
+        "Granolita",
+        "This is a test let's see if it works",
+        "Est timur",
+        "A famous londineese ghost"
+      ]
+    },
+    {
+      "title": "Is Carlo the best Carlo in the LillaCorp?",
+      "answer": "Carlo",
+      "options": ["Carlo"]
+    }
+  ]
+}
