@@ -26,7 +26,7 @@ export const gamesList = [
   'sliceanddice',
   'talos',
   'tunic',
-  'showdown',
+  'showgun',
   'stray',
   'ghost',
   'dave',
@@ -46,7 +46,7 @@ export const categoryNomineeList = (gameSlug) => {
   }
   switch (gameSlug) {
     case linkslist[0]:
-      return ['bg3', 'tunic', 'showdown', 'ghost', 'tlou2', 'dave', 'ratchet'];
+      return ['bg3', 'tunic', 'showgun', 'ghost', 'tlou2', 'dave', 'ratchet'];
     case linkslist[1]:
       return [
         'stray',
@@ -83,14 +83,14 @@ export const categoryNomineeList = (gameSlug) => {
     case linkslist[7]:
       return ['tunic', 'cocoon', 'dave', 'tlou2'];
     case linkslist[8]:
-      return ['bg3', 'showdown', 'ratchet', 'seaofstars', 'sliceanddice'];
+      return ['bg3', 'showgun', 'ratchet', 'seaofstars', 'sliceanddice'];
     case linkslist[9]:
       return [
         'bg3',
         'sliceanddice',
         'cocoon',
         'tunic',
-        'showdown',
+        'showgun',
         'seaofstars',
         'balatro',
         'animalwell',
@@ -99,7 +99,7 @@ export const categoryNomineeList = (gameSlug) => {
       return [
         'cocoon',
         'goldenidol',
-        'showdown',
+        'showgun',
         'talos',
         'sliceanddice',
         'stray',
@@ -111,7 +111,7 @@ export const categoryNomineeList = (gameSlug) => {
         'beginnersguide',
       ];
     case linkslist[11]:
-      return ['nier', 'tunic', 'tlou2', 'seafstars'];
+      return ['nier', 'tunic', 'tlou2', 'seaofstars'];
     case linkslist[12]:
       return ['bg3', 'tunic', 'ghost', 'stray', 'dave', 'tlou2'];
     default:
@@ -304,164 +304,136 @@ export const getGameDetails = (categorySlug: string) => {
 
 export const getGameData = (gameName) => {
   switch (gameName) {
-    case 'ff7':
+    case 'bg3':
       return {
-        image: '/assets/ff7.jpg',
-        name: 'Final fantasy 7 remake',
+        image: '/assets/bg3.png',
+        name: 'Baldur’s Gate 3',
         styles: '',
-        shortName: 'ff7',
+        shortName: 'bg3',
       };
-    case 'halflife':
+    case 'cocoon':
       return {
-        image: '/assets/halflife.jpg',
-        name: 'Half Life Alyx',
+        image: '/assets/cocoon.png',
+        name: 'Cocoon',
         styles: '',
-        shortName: 'halflife',
+        shortName: 'cocoon',
       };
-    case 'psychonauts':
+    case 'goldenidol':
       return {
-        image: '/assets/psychonauts.jpg',
-        name: 'Psychonauts 2',
+        image: '/assets/goldenidol.png',
+        name: 'The Case of the Golden Idol: DLCs',
         styles: '',
-        shortName: 'psychonauts',
+        shortName: 'goldenidol',
       };
-    case 'ittakestwo':
+    case 'sliceanddice':
       return {
-        image: '/assets/ittakestwo.jpg',
-        name: 'It Takes Two',
+        image: '/assets/sliceanddice.png',
+        name: 'Slice and Dice',
         styles: '',
-        shortName: 'ittakestwo',
+        shortName: 'sliceanddice',
       };
-    case 'eldenring':
+    case 'talos':
       return {
-        image: '/assets/eldenring.jpg',
-        name: 'Elden Ring',
+        image: '/assets/talos.png',
+        name: 'The Talos Principle',
         styles: '',
-        shortName: 'eldenring',
+        shortName: 'talos',
       };
-    case 'godofwar':
+    case 'tunic':
       return {
-        image: '/assets/godofwar.jpg',
-        name: 'God of War',
+        image: '/assets/tunic.png',
+        name: 'Tunic',
         styles: '',
-        shortName: 'godofwar',
+        shortName: 'tunic',
       };
-    case 'outerwildseote':
+    case 'showgun':
       return {
-        image: '/assets/outerwilds.jpg',
-        name: 'Outer Wilds EOTE',
+        image: '/assets/showgun.png',
+        name: 'Showdown Shogun',
         styles: '',
-        shortName: 'outerwildseote',
+        shortName: 'showgun',
       };
-    case 'theartfulescape':
+    case 'stray':
       return {
-        image: '/assets/artfulescape.jpg',
-        name: 'The Artful Escape',
+        image: '/assets/stray.png',
+        name: 'Stray',
         styles: '',
-        shortName: 'theartfulescape',
+        shortName: 'stray',
       };
-    case 'chicory':
+    case 'ghost':
       return {
-        image: '/assets/chicory.jpg',
-        name: 'Chicory',
+        image: '/assets/ghost.png',
+        name: "Ghost of tsushima",
         styles: '',
-        shortName: 'chicory',
+        shortName: 'ghost',
       };
-    case 'deathsdoor':
+    case 'dave':
       return {
-        image: '/assets/deathsdoor.jpg',
-        name: "Death's door",
+        image: '/assets/dave.png',
+        name: 'Dave the Diver',
         styles: '',
-        shortName: 'deathsdoor',
+        shortName: 'dave',
       };
-    case 'inscryption':
+    case 'ratchet':
       return {
-        image: '/assets/inscryption.jpg',
-        name: 'Inscryption',
+        image: '/assets/ratchet.png',
+        name: 'Ratchet & Clank: Rift Apart',
         styles: '',
-        shortName: 'inscryption',
+        shortName: 'ratchet',
       };
-    case 'superhotvr':
+    case 'tlou2':
       return {
-        image: '/assets/superhot.jpg',
-        name: 'Superhot VR',
+        image: '/assets/tlou2.png',
+        name: 'The Last of Us 2 Remastered',
         styles: '',
-        shortName: 'superhotvr',
+        shortName: 'tlou2',
       };
-    case 'lifeisstrange2':
+    case 'tothemoon':
       return {
-        image: '/assets/lifeisstrange2.jpg',
-        name: 'Life is strange 2',
+        image: '/assets/tothemoon.png',
+        name: 'Just a To the Moon Series Beach Episode',
         styles: '',
-        shortName: 'lifeisstrange2',
+        shortName: 'tothemoon',
       };
-    case 'titanfall':
+    case 'seaofstars':
       return {
-        image: '/assets/titanfall.jpg',
-        name: 'Titanfall 2',
+        image: '/assets/seaofstars.png',
+        name: 'Sea of stars',
         styles: '',
-        shortName: 'titanfall',
+        shortName: 'seaofstars',
       };
-    case 'thronebreaker':
+    case 'balatro':
       return {
-        image: '/assets/thronebreaker.jpg',
-        name: 'Thronebreaker',
+        image: '/assets/balatro.png',
+        name: 'Balatro',
         styles: '',
-        shortName: 'thronebreaker',
+        shortName: 'balatro',
       };
-    case 'trianglestrategy':
+    case 'animalwell':
       return {
-        image: '/assets/trianglestrategy.jpg',
-        name: 'Triangle Strategy',
+        image: '/assets/animalwell.png',
+        name: 'Animal Well',
         styles: '',
-        shortName: 'trianglestrategy',
+        shortName: 'animalwell',
       };
-    case 'unepic':
+    case 'beginnersguide':
       return {
-        image: '/assets/unepic.jpg',
-        name: 'Unepic',
+        image: '/assets/beginnersguide.png',
+        name: "The Beginner's Guide",
         styles: '',
-        shortName: 'unepic',
+        shortName: 'beginnersguide',
       };
-    case 'masseffect':
+    case 'nier':
       return {
-        image: '/assets/masseffect.jpg',
-        name: 'Mass Effect Legendary Edition',
+        image: '/assets/nier.png',
+        name: 'Nier: Automata',
         styles: '',
-        shortName: 'masseffect',
-      };
-    case 'ori':
-      return {
-        image: '/assets/ori.jpg',
-        name: 'Ori and the Will of the Wisps',
-        styles: '',
-        shortName: 'ori',
-      };
-    case 'theforgottencity':
-      return {
-        image: '/assets/tfc.jpg',
-        name: 'The Forgotten City',
-        styles: '',
-        shortName: 'theforgottencity',
-      };
-    case 'eliza':
-      return {
-        image: '/assets/eliza.jpg',
-        name: 'Eliza',
-        styles: '',
-        shortName: 'eliza',
-      };
-    case 'dorfromantik':
-      return {
-        image: '/assets/dorfromantik.jpg',
-        name: 'Dorfromantik',
-        styles: '',
-        shortName: 'dorfromantik',
+        shortName: 'nier',
       };
 
     default:
       return {
-        image: '/assets/granola.jpg',
+        image: '/assets/alice.jpg',
         name: gameName,
         styles: '',
         shortName: 'gamenotfound',
