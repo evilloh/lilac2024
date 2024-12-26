@@ -23,21 +23,23 @@ export default function Winner() {
     setCategories(false);
     setOpen(false);
   }, [categoryName]);
+
+  console.log(videourl);
   return (
     <Layout>
       {categories && <Categories handler={setCategories} />}
       <CategoryHeader setCategories={setCategories} />
-      <section className="min-h-screen min-w-screen flex pt-60 md:pt-90  bg-primary-greyDark flex-col px-8 md:px-16 pb-12">
-        <div className="w-full max-w-7xl flex justify-center flex-col mx-auto">
-          <div className=" flex justify-between w-full flex-col md:flex-row">
-            <h2 className="mb-4"> {title}</h2>
-            <div className="flex mb-4 md:mb-0">
-              <Button classImport="mr-12" handler={setOpen} value={open}>
+      <section className='min-h-screen min-w-screen flex pt-60 md:pt-90  bg-primary-greyDark flex-col px-8 md:px-16 pb-12'>
+        <div className='w-full max-w-7xl flex justify-center flex-col mx-auto'>
+          <div className=' flex justify-between w-full flex-col md:flex-row'>
+            <h2 className='mb-4'> {title}</h2>
+            <div className='flex mb-4 md:mb-0'>
+              <Button classImport='mr-12' handler={setOpen} value={open}>
                 View Winner
               </Button>
             </div>
           </div>
-          <p className="mb-4 md:w-1/2">{description}</p>
+          <p className='mb-4 md:w-1/2'>{description}</p>
         </div>
         <Nominino
           gameNames={categoryNomineeList(categoryName)}
@@ -49,20 +51,33 @@ export default function Winner() {
             open ? 'notHiddenino' : 'hiddenino'
           } duration-500 flex flex-col  max-w-7xl mx-auto`}
         >
-          <div className="flex flex-wrap md:flex-nowrap ">
-            <div className="w-[90%] md:w-1/2 max-w-4xl  pt-12 md:pt-0">
-              <iframe
-                className="lg:w-[500px] xl:w-[600px] md:h-[350px] md:w-[300px] w-full h-[200px]"
-                src={videourl}
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+          <div className='flex flex-wrap'>
+            <div className='w-full pt-12 md:pt-0 mx-auto'>
+              {videourl?.includes('youtube') ? (
+                <iframe
+                  className='lg:w-[500px] xl:w-[600px] md:h-[350px] md:w-[300px] w-full h-[200px]'
+                  src={videourl}
+                  title='YouTube video player'
+                  allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                  allowFullScreen
+                ></iframe>
+              ) : (
+                <div
+                  className='relative w-full mb-8'
+                  style={{ aspectRatio: '16/9' }}
+                >
+                  <Image
+                    src={`/assets/${winner.shorttitle}-winner.png`}
+                    layout='fill'
+                    objectFit='contain'
+                    alt={`${winner.shorttitle} winner`}
+                  />
+                </div>
+              )}
             </div>
-            <div className="mt-8 lg:mt-0 lg:w-1/2  ml-6 lg:ml-0">
-              <h2 className="pb-4">{winner.title}</h2>
-              <p>{winner.description}</p>
+            <div className='mt-8 lg:mt-0  ml-6 lg:ml-0'>
+              <h2 className='pb-4'>{winner.title}</h2>
+              <p dangerouslySetInnerHTML={{ __html: winner.description }}></p>
             </div>
           </div>
         </div>
