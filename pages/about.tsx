@@ -48,7 +48,7 @@ const AboutPage = () => (
         <h3 className="text-sm">Host & creator</h3>
         <h2 className="italic mb-2 w-32">Evilloh Sbarbatello</h2>
         <h3 className="font-bold italic mb-4 ">
-          The Lilla Awards was founded in 2022 by media entrepreneur Evilloh
+          The Lilla Awards was founded in 2024 by media entrepreneur Evilloh
           Bakura92, who also hosts and produces the program.
         </h3>
         <p className="">
@@ -74,7 +74,7 @@ const AboutPage = () => (
         <h3 className="text-sm">Host</h3>
         <h2 className="italic mb-2 w-32">Alice Pernacchiella</h2>
         <h3 className="font-bold italic mb-4 ">
-          To co-host the Lilla Awards 2022 Alice Pernacchiella was chosen from a
+          To co-host the Lilla Awards 2024 Alice Pernacchiella was chosen from a
           huge selection of characters.
         </h3>
         <p className="">

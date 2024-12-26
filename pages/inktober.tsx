@@ -9,11 +9,11 @@ const Inktober = () => (
   <Layout>
     <section className="min-h-[calc(100vh-100px)] bg-primary-greyDark">
       <h1 className="pt-[150px] text-white font-bold text-3xl text-center pb-2">
-        A small throwback to our 2022 inktober
+        A small throwback to our 2024 inktober
       </h1>
       <h2 className=" text-white font-sans font-light text-lg text-center pb-12">
         Here's a selection of the best of the best of our inktober, the
-        cremdelacrém of 2022.
+        cremdelacrém of 2024.
       </h2>
       <Flickity
         className={'carousel '} // default ''

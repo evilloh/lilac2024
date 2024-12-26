@@ -196,7 +196,7 @@ export const getGameDetails = (categorySlug: string) => {
           title: 'Outer Wilds: Echoes of the Eye',
           shorttitle: 'outerwildseote',
           description:
-            "Outer Wilds: Echoes of the Eye. It's a little unfair that I mix games with pro-social meaning messages with 'stunning' games, but what matters is that the game has impacted you in a way that you'll hardly forget events or messages that occoured in the game. And this 15 to 20 hours dlc gets the prize for that. Just like the main game I can't tell much about it without spoiling the game, but the twists that you get by playing it are just formidable. It's so amazing that I just consider it a standalone game deserving a lillawards2022 prize.",
+            "Outer Wilds: Echoes of the Eye. It's a little unfair that I mix games with pro-social meaning messages with 'stunning' games, but what matters is that the game has impacted you in a way that you'll hardly forget events or messages that occoured in the game. And this 15 to 20 hours dlc gets the prize for that. Just like the main game I can't tell much about it without spoiling the game, but the twists that you get by playing it are just formidable. It's so amazing that I just consider it a standalone game deserving a lillawards2024 prize.",
         },
       };
     case linkslist[6]:

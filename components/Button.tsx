@@ -14,7 +14,7 @@ export default function Button({
   classImport,
   animatedButton,
   to,
-  handler,
+  handler = () => undefined,
   value,
 }: Props) {
   return (

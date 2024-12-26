@@ -15,7 +15,7 @@ export default function Categories({ handler }: Props) {
       >
         close X
       </h3>
-      <h2 className="mx-auto w-1/2 mt-12">2022 NOMINEES</h2>
+      <h2 className="mx-auto w-1/2 mt-12">2024 NOMINEES</h2>
       <div className="w-full flex flex-wrap mt-12 lg:mx-24">
         {linkslist.map((link, index) => {
           return (

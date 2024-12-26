@@ -3,14 +3,16 @@ import Layout from '../components/Layout';
 import Button from '../components/Button';
 import ArticleCard from '../components/ArticleCard';
 import Head from 'next/head';
+import { isMobile } from "react-device-detect";
 
 const IndexPage = () => (
   <Layout title="">
     <Head>
-      <title>Lillawards 2022</title>
+      <title>Lillawards 2024</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <section className="h-screen flex pt-60 md:pt-90 items-center justify-center flex-wrap bg-primary-black md:bg-transparent flex-col md:flex-row">
+    <section className="h-screen flex pt-60 md:pt-90 items-center justify-center flex-wrap bg-gradient-to-b from-[#bf97b9] via-[#e1bee7] to-[#bf97b9] md:bg-transparent flex-col md:flex-row"> 
+
       {/* <div className="w-[90%] md:w-3/5 max-w-4xl">
         <iframe
           className="lg:w-[600px] md:h-[350px] md:w-[500px] w-full h-[200px]"
@@ -22,7 +24,9 @@ const IndexPage = () => (
         ></iframe>
       </div> */}
       <div className="font-bold text-white text-4xl ml-8 mt-12 md:mt-0">
+
         <div className="flex items-center flex-wrap">
+
           <div className="text-[90px] md:w-24 md:h-56 lg:w-36 lg:h-[400px] relative w-12 h-32 mr-4">
             <Image src={'/assets/logo.png'} layout="fill"></Image>
           </div>
@@ -36,15 +40,17 @@ const IndexPage = () => (
           See Results
         </Button>
       </div>
-      <video
-        autoPlay
-        loop
-        muted
-        id="video"
-        className="hidden md:block object-cover"
-      >
-        <source src={'/assets/video.mp4'} type="video/mp4" />
-      </video>
+      {!isMobile ? (
+        <video
+          autoPlay
+          loop
+          muted
+          id="video"
+          className="hidden md:block object-cover"
+        >
+          <source src={"/assets/video.mp4"} type="video/mp4" />
+        </video>
+      ) : null}
     </section>
     <div className=" bg-primary-black">
       <section className="w-full min-h-[600px] bg-primary-black flex justify-between items-center flex-wrap pb-12 max-w-7xl mx-auto">
@@ -93,19 +99,19 @@ const IndexPage = () => (
         <div className="w-full flex justify-around flex-wrap ">
           <ArticleCard
             to="inktober"
-            date="November 7, 2022"
+            date="November 7, 2024"
             description="Inktober Review"
             image="/assets/inktober/inktober00.jpg"
           ></ArticleCard>
           <ArticleCard
             to="lillachat"
-            date="November 15, 2022"
+            date="November 15, 2024"
             description="Lillachat w/ Carlo"
             image="/assets/carlotalk.png"
           ></ArticleCard>
           <ArticleCard
             to="lillachoice"
-            date="November 20, 2022"
+            date="November 20, 2024"
             description="Lillachoices exposed!"
             image="/assets/choices.gif"
           ></ArticleCard>

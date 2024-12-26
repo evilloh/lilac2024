@@ -21,6 +21,7 @@ export default function Winner() {
     // I passed setCategories(false) to the Link in Categories but it doesnt get called properly, it sets categories to true!
     // this is a workaround that sets it to false every time the url changes
     setCategories(false);
+    setOpen(false);
   }, [categoryName]);
   return (
     <Layout>

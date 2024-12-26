@@ -230,6 +230,16 @@ a.animated-button-bg-black.thar-one:before {
   animation: fadeInOp 1s forwards;
 }
 
+.videogif {
+  background-image: url("/assets/videogif2.gif");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+
 .gridNominees {
   grid-row-gap: 35px;
   row-gap: 35px;

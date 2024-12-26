@@ -6,7 +6,7 @@ const Lillachat = () => (
     <section className="min-h-[calc(100vh-100px)] bg-primary-greyDark">
       <div className="mx-auto max-w-5xl">
         <h1 className="pt-[150px] text-white font-bold text-3xl pb-20">
-          Here some thoughts of our lillamembers about the lillachoices 2022!
+          Here some thoughts of our lillamembers about the lillachoices 2024!
         </h1>
         <h2 className="text-2xl border-b-4 w-fit pr-4 mb-2 mx-4 md:mx-0">
           Visinoskij
