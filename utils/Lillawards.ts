@@ -128,9 +128,10 @@ export const getGameDetails = (categorySlug: string) => {
         description:
           'Recognizing a game that delivers the absolute best experience across all creative and technical fields.',
         winner: {
-          title: 'Spoilerino',
+          title: 'Baldur’s Gate 3',
+          shorttitle: 'bg3',
           description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quam, accusantium maiores quod nobis, harum, voluptatum facere vero excepturi laborum tempore perferendis qui error repellat ex incidunt a quisquam tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quam, accusantium maiores quod nobis, harum, voluptatum facere vero excepturi laborum tempore perferendis qui error repellat ex incidunt a quisquam tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+            "What can I say that hasn't been said online already. This game embraces the DnD world and rules and show you the best videogame DnD inspired that has ever been created. I'd say it's Divinity original Sin on steroids. I'll just say a few good things about the game, the rest you can look online. 1. Monks work well without armor, so you can have your monk with the weenie out all the time. 2. Barbarians work well without armor, so you can have your Barbarian with the weenie out all the time. 3. Druids in forms don't show any armor, so it's like having the weenie out all the time (for the Lillacorp furries lovers). 4. You can fuck with so many of the characters. 5. You can be poliamorous. 6. Tentacles. ",
         },
       };
     case linkslist[1]:
@@ -138,12 +139,12 @@ export const getGameDetails = (categorySlug: string) => {
         title: 'Best Narrative',
         videourl: 'https://www.youtube.com/embed/RxsU3-nYwGQ',
         description:
-          'For outstanding storytelling and narrative development in a game.',
+          'For outstanding stoprerytelling and narrative development in a game.',
         winner: {
-          title: 'The Forgotten City',
-          shorttitle: 'theforgottencity',
+          title: "The Beginner's Guide",
+          shorttitle: 'beginnersguide',
           description:
-            "The Forgotten City brings you a story that uses a simple time loop to deliver an interesting story full of unexpected moments and deep conversations. It has multiple endings and even if it isn't challanging in terms of difficulty it's still entertaining and a joy to dive into. You won't feel bored by the repeating of the loop since the game design is well thought, even if the game is based on a simple Skyrim's mod.",
+            "This game talks about creativity, passions, hobbies, the pursue of one's happiness and human behavior. It could be a ted talk, or a video on youtube, but the fact that talks about videogames makes the choice of storytell this as a videogame the best choice. It is bittersweet, hearthwarming and disappointing, lovely and infuriating. It's a game about people more than a game about videogames. It's short but tells you enough to be considered complete. A must play story-driven walking simulator that inspires you and makes you think.",
         },
       };
     case linkslist[2]:
@@ -154,10 +155,10 @@ export const getGameDetails = (categorySlug: string) => {
         description:
           'For outstanding creative and/or technical achievement in artistic design and animation.',
         winner: {
-          title: 'It takes two',
-          shorttitle: 'ittakestwo',
+          title: 'Sea of Stars',
+          shorttitle: 'seaofstars',
           description:
-            "It takes two is such a joyful experience. The levels that you pass through with your characters are so diverse and well thought, full of creativity and colors. You can go from the snowy mountains to the depth of the sea, you'll ride super cute spiders and you'll be solving puzzles in outerspace. Every new level that I started made me giggle with joy and emotion for the surprises and delightful colors and ideas presented. A shoutout to psychonauts 2, that delivers the same kind of experience, artistic-wise, but I felt a little too repetitive compared to It Takes Two.",
+            "Such a great great pixel art old stile jrpg game. The art was the most attractive part for me of this game and what led me to try it. Then the music kicks in and you fall in love with all the art department. It is super cozy since you feel like playing one of those old jrpg from the 00's. The gameplay is entertaining and engaging, but unfortunately the repetitive mechanics tend to feel like a chore in the later part of the game. The story is kind of cool but with some flaws too, villains being villains and heroes being heroes. It is not a perfect game, but if you relax and try to enjoy this 28ish hours game with no expectations you'll have a great time kicking some butts with an incredible OST and great pixel art.",
         },
       };
     case linkslist[3]:
@@ -167,10 +168,10 @@ export const getGameDetails = (categorySlug: string) => {
         description:
           'Recognizing a game that stands out for playability, enjoyability of its gameplay and have-a-good-time-ity.',
         winner: {
-          title: 'Half Life: Alyx',
-          shorttitle: 'halflife',
+          title: 'Dave the Diver',
+          shorttitle: 'dave',
           description:
-            "Half life Alyx must win this award. Unfortunately what wins this prize is not some new sensational way of playing half life alyx, but just the perfect implementation of the VR environment. The gameplay is easy, a fps with kinetik gloves, but the experience is out of this world. It's a revolution of the videogames, being able to pick up bottles with liquid inside and just watch the bubbles react to the motion of your hand. Drawing on the window glass with a sharpie, throwing dead animals around or just catching things with your gloves are actions that I'd consider boring but they become entertaining in this game. It is a shooter game, it becomes a survival horror and merges small puzzles. It has it all and it delivers the experience using all the tools that a VR headset can provide, making it an unbeatable winnner in this category this year. You get so hooked with the gameplay that outside the game you'll probably try to grab things with your non-existing kinetic gloves.",
+            "This game is a mix of everything. Its delightful 2D pixel art brings you a vibrant and joyful sea environment that comes along with wonderful cutscenes animations, which you don't usually see in pixel art games. The game is supposedly about fishing fish and serving sushi, but it's much more. The more you progress the more you realize that it's filled with minigames, easter eggs from nerd culture, exploration and a whole lot of content. It's the kind of game you can easily go in blind and have tons of fun. Rating: 5 stars.",
         },
       };
     case linkslist[4]:
@@ -180,10 +181,17 @@ export const getGameDetails = (categorySlug: string) => {
         description:
           'For bringing an emotional and immersive story, carefully written with quality and outstanding content. ',
         winner: {
-          title: 'Mass Effect Legendary Edition',
-          shorttitle: 'masseffect',
-          description:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quam, accusantium maiores quod nobis, harum, voluptatum facere vero excepturi laborum tempore perferendis qui error repellat ex incidunt a quisquam tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quam, accusantium maiores quod nobis, harum, voluptatum facere vero excepturi laborum tempore perferendis qui error repellat ex incidunt a quisquam tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+          title: 'Just a To the Moon Series Beach Episode',
+          shorttitle: 'tothemoon',
+          description: `
+          I'll be hones, I was about to give this prize to to the moon, but this description fits perfectly with TLOU2. I have another prize for to the mooon :).
+The game follows the same gameplay pattern as the first one: exploration, stealth, cinematic. Rinse and repeat. It might seem boring (and it would be) if it wasn't for the masterfully crafted world. This game is the most realistic game I've played so far in terms of graphics, thus transforming what would be a boring exploration phase into a stunning walking simulator. The stealth sections I'm sure are very enjoyable, but I dislike stealth games and I get scared too easily, so I played the game on EXTRA easy mode. I appreciate that the developers gave the chance to enjoy the incredibly well told story also to those who can't properly play the game like me.
+The zombies and tension are very horrorlike sometimes, but it's also spaced with sections where the enemies are humans. The gem of the game is obviously the storytelling, which makes you feel like you're playing a literal movie. Someone might not like some of the choices of the story, but it's undeniable the quality behind the characters development, the events, the emotions that wrap the story. 
+
+
+PS: Now i understand why the review bombing and the backlash. Please. Spoiler alert. 
+There are female characters that are the main characters. There are lesbians who might not be the male-fantasy kind of lesbians. There is a woman that is muscular which means that... i don't know what incels feel when they see a muscular woman. There's a transgender person. A lot of LGBTQ+ and women visibility that isn't forced in the story aggressively and a lot of incels out there got angry about it. pff
+          `,
         },
       };
     case linkslist[5]:
@@ -193,10 +201,14 @@ export const getGameDetails = (categorySlug: string) => {
         description:
           'For a thought-provoking game that can have a pro-social meaning or message or that just leaves you with jaw dropping moments.',
         winner: {
-          title: 'Outer Wilds: Echoes of the Eye',
-          shorttitle: 'outerwildseote',
-          description:
-            "Outer Wilds: Echoes of the Eye. It's a little unfair that I mix games with pro-social meaning messages with 'stunning' games, but what matters is that the game has impacted you in a way that you'll hardly forget events or messages that occoured in the game. And this 15 to 20 hours dlc gets the prize for that. Just like the main game I can't tell much about it without spoiling the game, but the twists that you get by playing it are just formidable. It's so amazing that I just consider it a standalone game deserving a lillawards2024 prize.",
+          title: 'Just a To the Moon Series Beach Episode',
+          shorttitle: 'tothemoon',
+          description: `Just like what I would say about to the moon I'd say about this game. The gameplay is just exploring in a RPGMaker-like environment basically, with a really nice story and good old music. Enough said. If you liked to the moon you'd most probably like this one too.
+
+          For me or those who dont care about spoilers:
+          After weeks I still think about it. I still think about
+          
+          "During the trip, I saw something I liked at the store. I dreamed that you saw that I wanted it, and got it for me.... That you bought it in secret and hung it on my door to surprise me. You would do that, right...? "`,
         },
       };
     case linkslist[6]:
@@ -206,10 +218,10 @@ export const getGameDetails = (categorySlug: string) => {
         description:
           'For the best game in the action genre focused primarily on combat.',
         winner: {
-          title: 'Titanfall 2',
-          shorttitle: 'titanfall',
+          title: 'Ratchet & Clank: Rift Apart',
+          shorttitle: 'ratchet',
           description:
-            "Titanfall 2 wins the tie over the other contestants. It's due to it's semplicity and it's variety. You can both fight as a human or as a mecha and it's a fun shooter game in both ways. It's like playing an evangelion game but with MMMURICA in mind instead of japanese hentais. It's easy from the get go and dynamic enough to keep you interested in the gameplay throuought the whole campaign.",
+            "I wasn't so keen on playing this game since I felt it to be... childish? But all the good reviews led me to try it, and I'm glad I did. I ate this game with a lot of excitement and fun. The game CAN be for a younger audience also, but it doesn't mean it isn't fun. Lots of weapons and ways to defeat your many enemies. The graphics are stunning and the environments diverse and vibrant. The game doesn't drag you around with stupid boring quests (unless you want it to) and feels really fresh, fast  joyful and fun! ",
         },
       };
     case linkslist[7]:
@@ -219,10 +231,12 @@ export const getGameDetails = (categorySlug: string) => {
         description:
           'For the best action/adventure game, combining combat with traversal puzzle solving.',
         winner: {
-          title: 'God of War',
-          shorttitle: 'godofwar',
-          description:
-            "God of war is the God of the genre. When I think of this genre only triple A games come to my mind and God of war is the best that i've played this year. It has some cutscenes that leave you breathless, but what makes this game the best of the genre is the fluidity of the mechanics, the fun of the fights, the small challanges and puzzles that you find on your way, the story that gets told effortlessly while progressing through the game. It's a masterpiece in many aspects and still is one of the best action adventure games of all times out there.",
+          title: 'Tunic',
+          shorttitle: 'tunic',
+          description: ` Remember that feeling when you had your new PS1 videogame bought at the only local videogame store? How excited you were since it was something new and you knew you'd spend a lot of time on it. And remember how it was in english, manual included? Y
+          ou were so happy to play the game but you struggled a lot with understanding what to do, what the story was, what they were saying... 
+          Oh wait! Maybe that thing was meant to do this!... And you got stuck, a lot, but you were happy anyways, even thought you had no internet to move on, no guides... just yourself and your patience.
+          That 90's feeling is what Tunic is about. Also a cute fox and a couple of dark souls-like difficult spike. Oh and the music, such a characteristic style that doesn't overwhelm the game and takes you by the hand during the whole game`,
         },
       };
     case linkslist[8]:
@@ -230,12 +244,12 @@ export const getGameDetails = (categorySlug: string) => {
         title: 'Best Role Playing',
         videourl: 'https://www.youtube.com/embed/5hTJraZbjO0',
         description:
-          'For the best game designed with rich player character customization and progression.',
+          'Recognizing a game that delivers the absolute best experience across all creative and technical fields.',
         winner: {
-          title: 'Mass Effect: Legendary Edition',
-          shorttitle: 'masseffect',
+          title: 'Baldur’s Gate 3',
+          shorttitle: 'bg3',
           description:
-            "Mass Effect Legendary Edition is the sum of a space trip that lasted years and I could revive on this incredible remaster. The progression through the three games and the customization creates a connection with your character after every ending credits. All the choices you make that will afect your future help this immersion in the world and in the character. Also the gameplay is strictly linked to all the choices you make in terms of equipement or skills. It's the ultimate 360 RPG space experience.",
+            "What can I say that hasn't been said online already. This game embraces the DnD world and rules and show you the best videogame DnD inspired that has ever been created. I'd say it's Divinity original Sin on steroids. I'll just say a few good things about the game, the rest you can look online. 1. Monks work well without armor, so you can have your monk with the weenie out all the time. 2. Barbarians work well without armor, so you can have your Barbarian with the weenie out all the time. 3. Druids in forms don't show any armor, so it's like having the weenie out all the time (for the Lillacorp furries lovers). 4. You can fuck with so many of the characters. 5. You can be poliamorous. 6. Tentacles. ",
         },
       };
     case linkslist[9]:
@@ -245,10 +259,17 @@ export const getGameDetails = (categorySlug: string) => {
         description:
           'Best game focused on real time or turn-based simulation or strategy/puzzles gameplay.',
         winner: {
-          title: 'Thronebreaker',
-          shorttitle: 'thronebreaker',
-          description:
-            "Thronebreaker surprises you with how fluently it merges card fights with the storyline. All the battles include some of the lore of the story in the game, even the optional challenges are involved in the story. The game can provide a good challenge that will make you spend some time thinking about your deck and actions on harder difficulties. It has a good story, it's well drawn and most importantly the story is interesting and has a surprisingly good voice acting.",
+          title: 'Showgun Showdown',
+          shorttitle: 'showgun',
+          description: `It is smart, fast and addicting. It's challenging since it forces you to think ahead, but not too overwhelming since you only have to think ahead 1 or 2 moves and the battle field is pretty small. The first run you can complete in a few hours (or less!) but then the difficulty rises in a mostly healthy way. Over the 6 days I could beat 5 of them and it was challenging! A little too much towards the end (for me), but that's when you decide you can call it a day and move on.
+Really loved the variety of weapons, almost all of them really viable in some builds.
+
+Super worth it!
+TIP FOR THE DEVS: pls make visible the bosses life, sometimes it's hard to know if you can lasthit :(
+
+EDIT: I could beat the sixth day! I found myself coming to play again and again during lunchtimes since you can pause it whenever you want. I really liked the difficulty rise, the 6th day is a level where you have to know all the enemies and know how to fight with your own build admitting very few mistakes, sometimes the bosses must be done with 0 mistakes. Suuuuper worth the buy! <3
+
+POST RELEASE EDIT: I'm impressed on how good this game was. After release they put a day 7 with higher difficulty and at the beginning for me it was impossible to even go through the first half. But it's here when you know that a roguelike game is good: I could beat day 7. The more I thought over the cards/shops the better I became. I made less mistakes. It is not random that the last 2 runs that I did were all through the last boss. Awesome strategic game, go for it 100% sure that you'll like a perfectly crafted challange!`,
         },
       };
     case linkslist[10]:
@@ -257,10 +278,9 @@ export const getGameDetails = (categorySlug: string) => {
         description: 'For the best game created by a independent studio.',
         videourl: 'https://www.youtube.com/embed/dCyn_PTDXJI',
         winner: {
-          title: 'Inscryption',
-          shorttitle: 'inscryption',
-          description:
-            "Inscryption gets the prize for the best Indie game. Super original gameplay, the whole art design of the game is so interesting and not as shallow as it might appear at the beginning. The game is not just a roguelike card game, it's so much more, but I don't want to spoil anything so I'll just advice to all of the four listeners of this video to give it a try if you have a chance! (And remember to add me to your deck!)",
+          title: 'Stray',
+          shorttitle: 'stray',
+          description: `Hop on and join the ride through this half-lifey post apocalyptic work on the back of a cute adorable wonderful cat. It's basically a walking simulator, slow paced but interesting to explore since you feel there's a story behind every thing you see. Walking around as a cat is what makes this game magic though, you scratch sofas, sleep on pillows, meow... just for the sake of it. It's delightful. The animations of the cat are very realistic which makes you feel like meowing to every robot you encounter. And the story might be simple but it's really touching. If wall-e and a cat had a videogame it would be Stray.`,
         },
       };
     case linkslist[11]:
@@ -270,10 +290,21 @@ export const getGameDetails = (categorySlug: string) => {
         description:
           'For outstanding music, inclusive of score, original song and/or licensed soundtrack.',
         winner: {
-          title: 'Life is Strange 2',
-          shorttitle: 'lifeisstrange2',
-          description:
-            "Life is strange 2 has the best compilation of songs of the games list. Of course FF7 remastered has the best songs. Obviously I still cry listening to outer wilds soundtrack. Did I pass days sleeping while listening some of death's door songs? Probably. But the ones that I put on repeat the most were the ones from Life is Strange 2.",
+          title: 'Nier: Automata',
+          shorttitle: 'nier',
+          description: `I must admit, I added Nier only to win this category. I'll break down all the cons of this awful game: 
+This is perhaps the game that has respected my time as a player the least, ever. The game forces you to do three damn 7-hour runs, where the first and second are 95% IDENTICAL. Remember when you have to go to the refugee camp, which sends you to Pascal, then Pascal sends you back to the refugees, and then from the refugees you have to return to Pascal? Get ready to do it again. Running, because you still haven’t unlocked fast travel. I can imagine the developers thinking, “They’re going to have so much fun running from point A to point B for 15 minutes back and forth.”
+
+Speaking of running from point A to point B, 50% of the game is just that. The world is massive in scale but completely empty, so you end up running through vast open fields… and that’s it. Sure, it gives you the impression of being in a huge area, but it gets tiring, especially when you’re running back and forth through the same damn locations for the third playthrough. And it’s not like these environments are rich with details; we’re literally talking about a desert and some ruins. The only interesting area is the amusement park, but having to redo it multiple times isn’t something I ever wanted to do.
+
+Since I’m in full rant mode: what the hell is the point of the items? Did you use them? I’m talking about the consumables that give you a buff for, like, 15 seconds. The quick menu isn’t usable in battle because the fights are too fast-paced; you use it for health potions and nothing else. And pausing the game to go into the specific menu to use a consumable every 15 seconds seems ridiculous—it breaks the combat rhythm and feels clunky and not user-friendly. Maybe I just didn’t understand how to use the consumables?
+
+Last night I logged back in and had to RE-do a part of act three that made me curse from the moment it started until the very end. Of course, it was another “go from point A to point B,” but this time you were forced to walk while robots attack you, and you can’t fight back. Basically, 10 minutes of “hope you don’t die, because if you do, you’ll have to do it all over again. I hope you bought more than 80 health potions” (minor gameplay spoiler). And why did I have to redo it? Because when I played it before, I finished that part and started the next one, but I couldn’t save, so I had to do it again. This choice of forcing specific save points and not letting you save when you want—or having autosave—feels like another huge lack of respect for the player’s time. I remember the first part of the game, where you start in the spaceship and finish by defeating the boss in the factory—I had to redo that at least three times because I kept dying at the boss… and holy f**ing hell.*
+
+The game has so much potential; the combat is fun, and the gameplay is layered, not just Souls-like fights but also arcade-style elements, and I love the idea. But if I spend the whole game thinking of every curse word imaginable, I end up not enjoying the experience. And especially not enjoying the story, which everyone says is one of the best ever created in a video game—but you only understand it after finishing the third playthrough, for f**’s sake.*
+. 
+
+Having said this, the game's music is a masterpiece.`,
         },
       };
     case linkslist[12]:
@@ -282,10 +313,10 @@ export const getGameDetails = (categorySlug: string) => {
         description: 'For a game that brought you on a special journey.',
         videourl: 'https://www.youtube.com/embed/tQqckYVc5Ls',
         winner: {
-          title: 'Elden Ring',
-          shorttitle: 'eldenring',
+          title: 'Baldur’s Gate 3',
+          shorttitle: 'bg3',
           description:
-            "Elden Ring won over other though competitors like god of war or mass effect. The feel that I got from Elden ring of starting some quest and, after two hours, finding myself lost in a completely other quest is something that I haven't felt with the other games. I just couldn't stop playing it, I felt amazed and thrilled by every zone and every enemy I found in the game. Being an open world it allows you to explore and pushes you to that kind of immersion, but this is the best open world game that I've found so far since it's always full of things to see, watch, and die for.",
+            "What can I say that hasn't been said online already. This game embraces the DnD world and rules and show you the best videogame DnD inspired that has ever been created. I'd say it's Divinity original Sin on steroids. I'll just say a few good things about the game, the rest you can look online. 1. Monks work well without armor, so you can have your monk with the weenie out all the time. 2. Barbarians work well without armor, so you can have your Barbarian with the weenie out all the time. 3. Druids in forms don't show any armor, so it's like having the weenie out all the time (for the Lillacorp furries lovers). 4. You can fuck with so many of the characters. 5. You can be poliamorous. 6. Tentacles. ",
         },
       };
     default:
@@ -363,7 +394,7 @@ export const getGameData = (gameName) => {
     case 'ghost':
       return {
         image: '/assets/ghost.png',
-        name: "Ghost of tsushima",
+        name: 'Ghost of tsushima',
         styles: '',
         shortName: 'ghost',
       };
