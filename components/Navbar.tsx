@@ -1,7 +1,7 @@
-import React from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 export default function Navbar() {
   const router = useRouter();
@@ -15,14 +15,14 @@ export default function Navbar() {
               <a
                 className={` inline-block uppercase font-bold italic pt-6 relative w-4 md:w-6 h-8 md:h-16 mt-4`}
               >
-                <Image src={"/assets/logo.png"} layout="fill"></Image>
+                <Image src={'/assets/logo.png'} layout="fill"></Image>
               </a>
             </Link>
           </li>
           <li className={`ml-25 lg:ml-35 xl:ml-50`}>
             <div
               className={`bg-white ${
-                router.pathname == "/" ? "h-[2px]" : "h-0"
+                router.pathname == '/' ? 'h-[2px]' : 'h-0'
               }`}
             ></div>
             <Link href="/">
@@ -34,7 +34,7 @@ export default function Navbar() {
           <li className={`ml-25 lg:ml-35 xl:ml-50`}>
             <div
               className={`bg-white ${
-                router.pathname == "/about" ? "h-[2px]" : "h-0"
+                router.pathname == '/about' ? 'h-[2px]' : 'h-0'
               }`}
             ></div>
             <Link href="/about">
@@ -46,7 +46,7 @@ export default function Navbar() {
           <li className={`ml-25 lg:ml-35 xl:ml-50`}>
             <div
               className={`bg-white ${
-                router.pathname == "/winners" ? "h-[2px]" : "h-0"
+                router.pathname == '/winners' ? 'h-[2px]' : 'h-0'
               }`}
             ></div>
             <Link href="/winners">

@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import Layout from "../../../components/Layout";
-import Button from "../../../components/Button";
-import Categories from "../../../components/Categories";
-import Nominino from "../../../components/Nominino";
-import { categoryNomineeList } from "../../../utils/Lillawards";
+import React, { useState } from 'react';
+import Layout from '../../../components/Layout';
+import Button from '../../../components/Button';
+import Categories from '../../../components/Categories';
+import Nominino from '../../../components/Nominino';
+import { categoryNomineeList } from '../../../utils/Lillawards';
 
 export default function Cat() {
   const [categories, setCategories] = useState(false);
@@ -26,8 +26,8 @@ export default function Cat() {
           </p>
         </div>
         <Nominino
-          gameNames={categoryNomineeList("all")}
-          winner={""}
+          gameNames={categoryNomineeList('all')}
+          winner={''}
           showWinner={false}
         />
       </section>

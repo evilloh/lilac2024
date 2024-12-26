@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
-import Layout from "../../../components/Layout";
-import Button from "../../../components/Button";
-import Image from "next/image";
-import Categories from "../../../components/Categories";
-import CategoryHeader from "../../../components/CategoryHeader";
-import { useRouter } from "next/router";
-import Nominino from "../../../components/Nominino";
-import { categoryNomineeList } from "../../../utils/Lillawards";
-import { getGameDetails } from "../../../utils/Lillawards";
+import React, { useState, useEffect } from 'react';
+import Layout from '../../../components/Layout';
+import Button from '../../../components/Button';
+import Image from 'next/image';
+import Categories from '../../../components/Categories';
+import CategoryHeader from '../../../components/CategoryHeader';
+import { useRouter } from 'next/router';
+import Nominino from '../../../components/Nominino';
+import { categoryNomineeList } from '../../../utils/Lillawards';
+import { getGameDetails } from '../../../utils/Lillawards';
 
 export default function Winner() {
   const [open, setOpen] = useState(false);
@@ -45,7 +45,7 @@ export default function Winner() {
         />
         <div
           className={`mt-14 ${
-            open ? "notHiddenino" : "hiddenino"
+            open ? 'notHiddenino' : 'hiddenino'
           } duration-500 flex flex-col  max-w-7xl mx-auto`}
         >
           <div className="flex flex-wrap md:flex-nowrap ">

@@ -1,7 +1,7 @@
 // api/games.js
 
-import dbConnect from "../../../lib/dbConnect";
-import Game from "../../../models/Games";
+import dbConnect from '../../../lib/dbConnect';
+import Game from '../../../models/Games';
 
 export default async function handler(req, res) {
   const { method } = req;
@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   await dbConnect();
 
   switch (method) {
-    case "GET":
+    case 'GET':
       if (req.query) {
         try {
           const Gamerino = await Game.find({ gameId: req.query.id });
@@ -26,7 +26,7 @@ export default async function handler(req, res) {
         }
       }
       break;
-    case "POST":
+    case 'POST':
       try {
         const game = await Game.create(req.body);
         res.status(201).json({ success: true, data: game });
@@ -34,7 +34,7 @@ export default async function handler(req, res) {
         res.status(400).json({ success: false });
       }
       break;
-    case "PUT":
+    case 'PUT':
       try {
         const game = await Game.findOneAndUpdate(
           { gameId: req.query.id },

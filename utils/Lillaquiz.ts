@@ -1,5 +1,5 @@
-import axios from "axios";
-import { GameType } from "../types/Lillaquiz";
+import axios from 'axios';
+import { GameType } from '../types/Lillaquiz';
 
 export const selectAnswerPost = (
   playerName: string,
@@ -16,7 +16,7 @@ export const selectAnswerPost = (
       setGame(response.data?.data);
     })
     .catch(function (error) {
-      console.log("error in sending put to api", error);
+      console.log('error in sending put to api', error);
     });
 };
 
@@ -36,7 +36,7 @@ export const initiateGame = (
       setGame(response.data?.data);
     })
     .catch(function (error) {
-      console.log("error in sending put to api", error);
+      console.log('error in sending put to api', error);
     });
   setStart(true);
 };
@@ -64,7 +64,7 @@ export const calculateWinPercentage = (game: GameType, name: string) => {
 
 export const postGame = (game: GameType) => {
   axios
-    .post("/api/lillactions/games", game)
+    .post('/api/lillactions/games', game)
     .then(function (response) {
       console.log(response);
     })

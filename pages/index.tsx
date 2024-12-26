@@ -1,8 +1,8 @@
-import Image from "next/image";
-import Layout from "../components/Layout";
-import Button from "../components/Button";
-import ArticleCard from "../components/ArticleCard";
-import Head from "next/head";
+import Image from 'next/image';
+import Layout from '../components/Layout';
+import Button from '../components/Button';
+import ArticleCard from '../components/ArticleCard';
+import Head from 'next/head';
 
 const IndexPage = () => (
   <Layout title="">
@@ -11,7 +11,7 @@ const IndexPage = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <section className="h-screen flex pt-60 md:pt-90 items-center justify-center flex-wrap bg-primary-black md:bg-transparent flex-col md:flex-row">
-      <div className="w-[90%] md:w-3/5 max-w-4xl">
+      {/* <div className="w-[90%] md:w-3/5 max-w-4xl">
         <iframe
           className="lg:w-[600px] md:h-[350px] md:w-[500px] w-full h-[200px]"
           src="https://www.youtube.com/embed/h4w-YxhxxkY"
@@ -20,16 +20,16 @@ const IndexPage = () => (
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-      </div>
+      </div> */}
       <div className="font-bold text-white text-4xl ml-8 mt-12 md:mt-0">
         <div className="flex items-center flex-wrap">
           <div className="text-[90px] md:w-24 md:h-56 lg:w-36 lg:h-[400px] relative w-12 h-32 mr-4">
-            <Image src={"/assets/logo.png"} layout="fill"></Image>
+            <Image src={'/assets/logo.png'} layout="fill"></Image>
           </div>
           <div className="text-6xl md:text-8xl lg:text-9xl">
             THE
-            <br /> LILLA
-            <br /> AWARDS
+            <br /> LILAC
+            <br /> 2024
           </div>
         </div>
         <Button animatedButton="animated-button" to="/winners">
@@ -43,7 +43,7 @@ const IndexPage = () => (
         id="video"
         className="hidden md:block object-cover"
       >
-        <source src={"/assets/video.mp4"} type="video/mp4" />
+        <source src={'/assets/video.mp4'} type="video/mp4" />
       </video>
     </section>
     <div className=" bg-primary-black">
@@ -63,12 +63,12 @@ const IndexPage = () => (
             Celebrate the best
           </h2>
           <h2 className="uppercase text-5xl font-bold italic mb-8 tracking-widest">
-            video games <br></br> of 2022
+            video games <br></br> of 2024
           </h2>
           <p>
-            And see world premiere announcements of what's coming next in 2022
+            And see world premiere announcements of what's coming next in 2024
             and beyond! The Game Awards streams live and free around the world
-            on Thursday, December 1, 2022.
+            on Thursday, December 1, 2024.
           </p>
           <Button
             classImport="w-[250px]"
@@ -86,7 +86,7 @@ const IndexPage = () => (
     </div>
 
     <div className="bg-primary-greyDark">
-      <section className="bg-primary-greyDark w-full min-h-[600px] max-w-6xl mx-auto">
+      {/* <section className="bg-primary-greyDark w-full min-h-[600px] max-w-6xl mx-auto">
         <h2 className="text-primary-white uppercase ml-16 text-5xl font-bold italic mb-12">
           News
         </h2>
@@ -110,7 +110,7 @@ const IndexPage = () => (
             image="/assets/choices.gif"
           ></ArticleCard>
         </div>
-      </section>
+      </section> */}
       <section className="bg-primary-greyDark w-full min-h-[800px] pt-24 md:pt-0 max-w-6xl mx-auto">
         <h2 className="text-primary-white uppercase  text-5xl font-bold mb-12 text-center">
           Explore
@@ -122,7 +122,7 @@ const IndexPage = () => (
               target="_blank"
             >
               <Image
-                src={"/assets/lillachoice.jpg"}
+                src={'/assets/lillachoice.jpg'}
                 layout="fill"
                 objectFit="cover"
               ></Image>
@@ -134,7 +134,7 @@ const IndexPage = () => (
               target="_blank"
             >
               <Image
-                src={"/assets/lillac.jpg"}
+                src={'/assets/lillac.jpg'}
                 layout="fill"
                 objectFit="cover"
               ></Image>

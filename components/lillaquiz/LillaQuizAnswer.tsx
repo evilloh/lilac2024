@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 type Props = {
   question: string;
@@ -20,7 +20,7 @@ const LillaQuizAnswer = ({ question, index, setAnswer, answer }: Props) => {
     >
       <p
         className={`${
-          isSame ? "font-bold text-black text-xl" : ""
+          isSame ? 'font-bold text-black text-xl' : ''
         }  text-center text-inherit hover:text-primary-greyLight inline-block h-12`}
       >
         {question}

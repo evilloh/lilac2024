@@ -1,5 +1,5 @@
-import Layout from "../components/Layout";
-import "react-h5-audio-player/lib/styles.css";
+import Layout from '../components/Layout';
+import 'react-h5-audio-player/lib/styles.css';
 
 const Lillachat = () => (
   <Layout>
@@ -14,7 +14,7 @@ const Lillachat = () => (
         <div className="flex mb-12 flex-wrap px-4 md:px-0">
           <p className="text-lg  text-white font-sans font-light mb-2 italic  md:w-3/5">
             i'm always taking time to play the games I like to finish the
-            lillachoice list and I even had to buy{" "}
+            lillachoice list and I even had to buy{' '}
             <span className="font-bold">Unravel 2</span>, the sequel of my
             personal Inside. Ib though was a game I always wanted to check out
             as a self-professed hipsters of games and I felt I required the push
@@ -23,16 +23,16 @@ const Lillachat = () => (
             pezzo. <span className="font-bold pr-2">Inscryption</span>
             was maybe a too good of a suggestion as it was very high in my list
             so it will probably be the last game I play in the upside down world
-            of the Lillachoice. I will also be grateful to Matteo for the{" "}
+            of the Lillachoice. I will also be grateful to Matteo for the{' '}
             <span className="font-bold">Caves of Qud</span> patch notes which I
             miss dearly. Some watch a gameplay video instead of playing the
             game, I just read patch notes. (if it's not long enough) I enjoyed
             my brother <span className="font-bold">book</span>, he is always the
-            safest lillachoicer ever since{" "}
+            safest lillachoicer ever since{' '}
             <span className="font-bold">Homeless Tycoon</span> which I've played
             in Scotland. The real Lillachoice experience though is trying to
             figure out why Carlo suggested you a certain game. I'm still
-            investigating about why{" "}
+            investigating about why{' '}
             <span className="font-bold">Legion TD2</span> but I've heard it's
             better then Legion TD1 so that's one thing.
           </p>
@@ -85,9 +85,9 @@ const Lillachat = () => (
             since I didn’t enjoy it as much, but it was a nice suggestion! I
             appreciate <span className="font-bold">Carlo and Miso</span> for
             giving me something that I was able to complete without too much
-            effort, but what I loved the most of all was{" "}
-            <span className="font-bold">Thronebreaker</span>, even more than{" "}
-            <span className="font-bold">Chicory</span> or{" "}
+            effort, but what I loved the most of all was{' '}
+            <span className="font-bold">Thronebreaker</span>, even more than{' '}
+            <span className="font-bold">Chicory</span> or{' '}
             <span className="font-bold">Titanfall 2!</span> Nice variety of
             suggestions I love you amici miei
           </p>
@@ -103,7 +103,7 @@ const Lillachat = () => (
           <p className="text-lg  text-white font-sans font-light mb-2 italic  md:w-3/5">
             <ul className="list-disc mx-auto ml-6">
               <li>
-                <span className="font-bold">South Park: Scontri Di Retti</span>{" "}
+                <span className="font-bold">South Park: Scontri Di Retti</span>{' '}
                 Chaotic, desecrating, crazy, and full of questionable humor. I
                 love it!
               </li>

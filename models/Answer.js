@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const AnswerSchema = new mongoose.Schema({
   gameId: String,
@@ -6,4 +6,4 @@ const AnswerSchema = new mongoose.Schema({
 });
 
 module.exports =
-  mongoose.models.Answer || mongoose.model("Answer", AnswerSchema);
+  mongoose.models.Answer || mongoose.model('Answer', AnswerSchema);

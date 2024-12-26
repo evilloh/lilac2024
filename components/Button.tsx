@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 type Props = {
   classImport?: string;
@@ -23,7 +23,7 @@ export default function Button({
       onClick={() => handler(!value)}
     >
       <a
-        href={`${to ? to : "#"}`}
+        href={`${to ? to : '#'}`}
         className={`btn btn-sm animated-button thar-one z-10 ${animatedButton}`}
       >
         {children}

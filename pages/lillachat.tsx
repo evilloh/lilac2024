@@ -1,7 +1,7 @@
-import Layout from "../components/Layout";
-import Button from "../components/Button";
-import AudioPlayer from "react-h5-audio-player";
-import "react-h5-audio-player/lib/styles.css";
+import Layout from '../components/Layout';
+import Button from '../components/Button';
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 
 const Lillachat = () => (
   <Layout>
@@ -27,7 +27,7 @@ const Lillachat = () => (
         <div>
           <AudioPlayer
             src="/assets/charlestalk.mp3"
-            onPlay={(e) => console.log("onPlay")}
+            onPlay={(e) => console.log('onPlay')}
             // other props here
           />
         </div>

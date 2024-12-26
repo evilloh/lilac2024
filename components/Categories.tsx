@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
-import { linkslist, getGameDetails } from "../utils/Lillawards";
+import React from 'react';
+import Link from 'next/link';
+import { linkslist, getGameDetails } from '../utils/Lillawards';
 
 type Props = {
   handler: Function;

@@ -1,5 +1,5 @@
-import dbConnect from "../../../lib/dbConnect";
-import Answer from "../../../models/Answer";
+import dbConnect from '../../../lib/dbConnect';
+import Answer from '../../../models/Answer';
 
 export default async function handler(req, res) {
   const { method } = req;
@@ -7,7 +7,7 @@ export default async function handler(req, res) {
   await dbConnect();
 
   switch (method) {
-    case "GET":
+    case 'GET':
       if (req.query) {
         try {
           const Answerino = await Answer.find({ gameId: req.query.id });
@@ -23,7 +23,7 @@ export default async function handler(req, res) {
           res.status(400).json({ success: false });
         }
       break;
-    case "POST":
+    case 'POST':
       if (req.query) {
         try {
           const { gameId, name, score } = req.body;
@@ -44,11 +44,11 @@ export default async function handler(req, res) {
             });
             res.status(200).json({ success: true, data: answer });
           } catch {
-            console.log("error creating a new answer");
+            console.log('error creating a new answer');
             res.status(400).json({ success: false });
           }
         } catch (error) {
-          console.log("Something went bad with answers!");
+          console.log('Something went bad with answers!');
           res.status(400).json({ success: false });
         }
       } else

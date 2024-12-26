@@ -1,13 +1,13 @@
-import React, { useState, Dispatch, SetStateAction } from "react";
-import axios from "axios";
-import LillaQuizAnswer from "./LillaQuizAnswer";
+import React, { useState, Dispatch, SetStateAction } from 'react';
+import axios from 'axios';
+import LillaQuizAnswer from './LillaQuizAnswer';
 import {
   selectAnswerPost,
   initiateGame,
   calculateWinPercentage,
-} from "../../utils/Lillaquiz";
-import { GameType } from "../../types/Lillaquiz";
-import LillaQuizEnd from "./LillaQuizEnd";
+} from '../../utils/Lillaquiz';
+import { GameType } from '../../types/Lillaquiz';
+import LillaQuizEnd from './LillaQuizEnd';
 
 type Props = {
   game: GameType;
@@ -15,13 +15,13 @@ type Props = {
 };
 
 function LillaquizComponent({
-  game = { questions: [], gameId: "" },
+  game = { questions: [], gameId: '' },
   setGame,
 }: Props) {
-  const [name, setName] = useState("");
+  const [name, setName] = useState('');
   const [start, setStart] = useState(false);
   const [step, setStep] = useState(0);
-  const [answer, setAnswer] = useState("");
+  const [answer, setAnswer] = useState('');
   const [gameOver, setGameOver] = useState(false);
   const [total, setTotal] = useState({ total: 0, wins: 0, score: 0 });
 
@@ -31,11 +31,11 @@ function LillaquizComponent({
     if (step < maxStep - 1) {
       setStep(step + 1);
       selectAnswerPost(name, answer, game, step, setGame);
-      return setAnswer("");
+      return setAnswer('');
     }
     if (step === maxStep - 1) {
       selectAnswerPost(name, answer, game, step, setGame);
-      setAnswer("");
+      setAnswer('');
       setTotal(calculateWinPercentage(game, name));
       await axios
         .post(`/api/lillactions/answers?id=${game.gameId}`, {
@@ -99,13 +99,13 @@ function LillaquizComponent({
               <div className="fixed z-50 bottom-0 w-screen bg-primary-light h-[100px] md:relative md:w-[80%] md:mx-auto ">
                 <div
                   className={`mx-auto block w-fit text-white text-3xl opacity-70 pt-8 ${
-                    answer === ""
-                      ? ""
-                      : "opacity-[0.9] hover:opacity-100 hover:text-4xl"
+                    answer === ''
+                      ? ''
+                      : 'opacity-[0.9] hover:opacity-100 hover:text-4xl'
                   } pb-8 md:pb-12`}
                 >
                   <button
-                    disabled={answer === ""}
+                    disabled={answer === ''}
                     onClick={(e) => selectAnswer()}
                   >
                     Confirm

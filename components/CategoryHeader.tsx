@@ -1,7 +1,7 @@
-import React from "react";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { linkslist } from "../utils/Lillawards";
+import React from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { linkslist } from '../utils/Lillawards';
 type Props = {
   setCategories: Function;
 };
@@ -24,7 +24,7 @@ function CategoryHeader({ setCategories }: Props) {
   return (
     <div className="pt-20 md:pt-90 h-[160px] bg-primary-normal flex justify-between">
       <h3 className="ml-8 mt-4 hidden md:block">
-        category{" "}
+        category{' '}
         <span className="text-3xl">
           {category}/{linkslist.length - 1}
         </span>
@@ -32,13 +32,13 @@ function CategoryHeader({ setCategories }: Props) {
       <div className="flex mx-auto">
         <h3
           className={`ml-8 mt-4 text-lg   ${
-            first ? "opacity-50 cursor-default" : ""
+            first ? 'opacity-50 cursor-default' : ''
           }`}
         >
           {pageExists && (
-            <Link href={prev || ""}>
+            <Link href={prev || ''}>
               <a>
-                ←{" "}
+                ←{' '}
                 <span className="md:inline-block hidden">
                   Previous category
                 </span>
@@ -49,7 +49,7 @@ function CategoryHeader({ setCategories }: Props) {
         <h3
           className="ml-8 mt-4 text-lg cursor-pointer"
           onClick={() => {
-            console.log("salto");
+            console.log('salto');
             return setCategories(true);
           }}
         >
@@ -58,11 +58,11 @@ function CategoryHeader({ setCategories }: Props) {
         </h3>
         <h3
           className={`ml-8 mt-4 text-lg cursor-pointer ${
-            last ? "opacity-50 cursor-default" : ""
+            last ? 'opacity-50 cursor-default' : ''
           }`}
         >
           {pageExists && (
-            <Link href={next || ""}>
+            <Link href={next || ''}>
               <a>
                 <span className="md:inline-block hidden">Next category</span> →
               </a>

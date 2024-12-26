@@ -1,6 +1,6 @@
-import Image from "next/image";
-import Layout from "../components/Layout";
-import AdvisorCard from "../components/AdvisorCard";
+import Image from 'next/image';
+import Layout from '../components/Layout';
+import AdvisorCard from '../components/AdvisorCard';
 
 const AboutPage = () => (
   <Layout>
@@ -23,7 +23,7 @@ const AboutPage = () => (
       <div className="w-[90%] md:w-3/5 max-w-4xl  pt-12 md:pt-0">
         <iframe
           className="lg:w-[600px] md:h-[350px] md:w-[300px] w-full h-[200px]"
-          src="https://www.youtube.com/embed/GS5k2HgaSM0"
+          src="/assets/video.mp4"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -37,7 +37,7 @@ const AboutPage = () => (
         id="video"
         className="hidden md:block object-cover"
       >
-        <source src={"/assets/video.mp4"} type="video/mp4" />
+        <source src={'/assets/video.mp4'} type="video/mp4" />
       </video>
     </section>
     <div className="w-full bg-primary-greyDark">
@@ -119,21 +119,7 @@ const AboutPage = () => (
             name="Bigolo"
             role="Head of Stealth Dep."
             empresa="Lillastealth"
-            description="Shitlord didn't even play Stray"
-          />
-          <AdvisorCard
-            image="/assets/voltrik.jpg"
-            name="Voltrik"
-            role="Lillacorp co-founder"
-            empresa="Lillacorp"
-            description="Co-creating the lillac 2022 presentation and Quiz Expert"
-          />
-          <AdvisorCard
-            image="/assets/granola.jpg"
-            name="Granolita"
-            role="External advisor"
-            empresa="Lillahelp"
-            description="Does this help I'm giving count as aid for the needed for taxes purposes?"
+            description="He finally played Stray"
           />
         </div>
       </div>

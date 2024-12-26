@@ -1,13 +1,13 @@
-import React, { ReactNode } from "react";
-import Head from "next/head";
-import Navbar from "./Navbar";
+import React, { ReactNode } from 'react';
+import Head from 'next/head';
+import Navbar from './Navbar';
 
 type Props = {
   children?: ReactNode;
   title?: string;
 };
 
-const Layout = ({ children, title = "Lillawards 2022" }: Props) => (
+const Layout = ({ children, title = 'Lillawards 2022' }: Props) => (
   <div>
     <Head>
       <title>{title}</title>

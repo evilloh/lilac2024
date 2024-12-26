@@ -1,9 +1,9 @@
-import Head from "next/head";
-import axios from "axios";
-import { useEffect, useState } from "react";
-import LillaquizComponent from "../../components/lillaquiz/LillaquizComponent";
-import { GameType } from "../../types/Lillaquiz";
-import { useRouter } from "next/router";
+import Head from 'next/head';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import LillaquizComponent from '../../components/lillaquiz/LillaquizComponent';
+import { GameType } from '../../types/Lillaquiz';
+import { useRouter } from 'next/router';
 
 export default function Home() {
   const router = useRouter();

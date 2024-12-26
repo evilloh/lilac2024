@@ -1,6 +1,6 @@
-import Layout from "../components/Layout";
-import Button from "../components/Button";
-import Flickity from "react-flickity-component";
+import Layout from '../components/Layout';
+import Button from '../components/Button';
+import Flickity from 'react-flickity-component';
 const flickityOptions = {
   initialIndex: 0,
 };
@@ -16,8 +16,8 @@ const Inktober = () => (
         cremdelacrém of 2022.
       </h2>
       <Flickity
-        className={"carousel "} // default ''
-        elementType={"div"} // default 'div'
+        className={'carousel '} // default ''
+        elementType={'div'} // default 'div'
         options={flickityOptions} // takes flickity options {}
         disableImagesLoaded={false} // default false
         reloadOnUpdate // default false
